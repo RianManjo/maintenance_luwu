@@ -1,0 +1,83 @@
+*, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0C73DC;
+}
+
+.container {
+    
+}
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+    gap: 32px;    
+}
+
+.header .title {
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: Inter, sans-serif;
+    width: 210px;
+    letter-spacing: 0.5px;
+    line-height: 28px;
+}
+
+.content {
+    margin-top: 40px;
+    color: #FFF;
+}
+
+.content .title{
+    background-color: #F6B62F;
+    text-align: center;
+    margin: auto;
+    width: 445px;
+    height: 66px;
+    
+    text-transform: uppercase;
+    padding-bottom: 8px;
+    font-weight: bold;
+    font-size: 48px;
+    font-family: Inter, sans-serif;
+}
+
+.content .sub-title {
+    text-align: center;
+    text-transform: capitalize;
+    font-family: Inter, sans-serif;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.5px;
+    margin-top: 28px;
+}
+
+.content-2 {
+    margin-top: 41px;
+    display: flex;
+    justify-content: center;    
+}
+
+footer img {
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    animation-name: slide-up;    
+    animation-duration: 0.5s;    
+}
+
+@keyframes slide-up {
+    0% {
+        transform: translateY(100%);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
