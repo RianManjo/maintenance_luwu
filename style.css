@@ -72,14 +72,19 @@ footer img {
     position: fixed;
     width: 100%;
     animation-name: slide-up;    
-    animation-duration: 0.5s;    
+    animation-duration: 1s;
+    opacity: 1;    
 }
 
 @keyframes slide-up {
     0% {
         transform: translateY(100%);
+        opacity: 0;
     }
     100%{
         transform: translateY(0);
+        
+        animation-delay: 8s;
     }
 }
+
